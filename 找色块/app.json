@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index"
+    
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo",
+    "navigationBarBackgroundColor":"#123123",
+    "navigationBarTextStyle":"white"
+
+  },
+  
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

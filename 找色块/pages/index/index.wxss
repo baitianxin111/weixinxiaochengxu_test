@@ -1,0 +1,10 @@
+/* pages/index/index.wxss */
+.gameContainer{
+  /*width:750rpx;*/
+  /*height: 750rpx;*/
+  margin: 200rpx auto;
+  background-color: gold;
+  display: flex;
+  flex-wrap: wrap;
+}
+ 
