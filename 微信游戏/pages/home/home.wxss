@@ -1,0 +1,23 @@
+/* pages/home/home.wxss */
+.container{
+  display: flex;
+  padding-top: 5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+ 
+.con{
+  width:300rpx;
+  height: 300rpx;
+  background-color: red;
+  text-align: center;
+  line-height: 300rpx;
+  border: 5rpx solid white;
+  box-sizing: border-box;
+  color: #139111;
+  font-size: 50rpx;
+}
+.con ::first{
+  background-color: lightpink;
+}

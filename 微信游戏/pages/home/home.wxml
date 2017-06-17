@@ -1,0 +1,7 @@
+<!--pages/home/home.wxml-->
+<!--<text>pages/home/home.wxml</text>-->
+<view class="container" >
+ 
+<view class="con" bindtap="dianji" hover-class ="action"wx:for="{{fangkuai}}" wx:item="{{item}}" bindtouchstart="start">{{item.title}}
+</view>
+</view>

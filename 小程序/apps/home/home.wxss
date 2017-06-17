@@ -1,0 +1,20 @@
+/* apps/home/home.wxss */
+.redColor{
+  color:red;
+}
+.redColor{
+   color: orange;
+
+}
+.repeatView{
+  padding: 5px;
+  background: skyblue;
+  border-radius: 5px;
+}
+.nei{
+  width: 10rem;
+  height: 1rem;
+  margin: 5px;
+  background: red;
+  border-radius: 9px;
+}

@@ -1,0 +1,18 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#FF7E00",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "music",
+    "backgroundColor": "#e1ebf3",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "pages": [
+    "apps/painoView/painpView"
+  ]
+  
+ 
+ 
+
+ 
+}

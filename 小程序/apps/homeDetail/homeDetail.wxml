@@ -1,0 +1,13 @@
+<!--<view class="container" hover-class="action" hover-start-time="3000 hover-stay-time="3000"">
+   <button bindtap="goback">返回</button>
+</view>-->
+<view class="pianoAudios">
+<audio src="http://sc.chinaz.com/yinxiao/ " controls="false"></audio>
+</view>
+
+<view class="container">
+  <view class="colorView" wx:for="{{datas}}"></view>
+</view>
+<scroll-view class="scrollView" scroll-y>
+  <view class="item" wx:for="{{datas}}"></view>
+</scroll-view>

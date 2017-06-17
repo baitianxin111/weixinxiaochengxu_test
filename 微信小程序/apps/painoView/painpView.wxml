@@ -1,0 +1,8 @@
+<!--apps/painoView/painpView.wxml-->
+<!--<text>apps/painoView/painpView.wxml</text>-->
+<view class="container">
+<view class="audioView" hover-class="action" wx:for="{{audios}}"wx:item="{{item}}" bindtouchstart="play" data-src="{{item.audio}}" data-id="{{item.title}}">
+<audio src="{{item.audio}}"id="{{item.title}}"></audio>
+{{item.title}}
+</view>
+</view>

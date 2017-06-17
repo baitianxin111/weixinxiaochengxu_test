@@ -1,0 +1,8 @@
+<!--pages/home/home.wxml-->
+
+<text>pages/home/home.wxml</text>
+<scroll-view  scroll-y   class="contaier">
+  <view class="content" wx:for="{{datas}}" wx:item="{{item}}"></view>
+  
+<include src="../templates/templates" data="{{item}}" />
+</scroll-view>

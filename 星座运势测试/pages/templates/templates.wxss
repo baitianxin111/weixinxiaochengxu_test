@@ -1,0 +1,17 @@
+/* pages/templates/templates.wxss */
+.container{
+  width:750rpx;
+  height: auto;
+}
+.touxing{
+  width:100rpx;
+  height: 100rpx;
+}
+.songerName{
+  width:100rpx;
+  height: 100rpx;
+}
+.songName{
+   width:100rpx;
+  height: 100rpx;
+}

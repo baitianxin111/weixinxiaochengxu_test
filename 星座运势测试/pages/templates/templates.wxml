@@ -1,0 +1,8 @@
+<!--pages/templates/templates.wxml-->
+<!--<text>pages/templates/templates.wxml</text>-->
+<view class="container">
+<text class="touxing">{{item.albumpic_small}}</text>
+<text class="songerName">{{item.singername}}</text>
+<text class="songName">{{item.songname}}</text>
+<audio src="{{item.downUrl}}" controls="true" loop="true"></audio>
+</view>

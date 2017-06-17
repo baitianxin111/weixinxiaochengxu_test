@@ -1,0 +1,24 @@
+/* apps/painoView/painpView.wxss */
+.container{
+  padding-top: 30rpx;
+  display: flex;
+  flex-wrap:wrap;
+ justify-content: center
+
+}
+.audioView{
+  width:250rpx;
+  height: 250rpx;
+  background-color: red;
+  text-align: center;
+  line-height: 250rpx;
+  border: 5rpx solid white;
+  box-sizing: border-box;
+  border-radius: 125rpx;
+  background:  radial-gradient(circle at left top, #ff9b2a,#ffe03d);
+  color: #139111;
+  font-size: 50rpx;
+}
+.action{
+   background:  radial-gradient(circle at left top, #bf7521,#dabe36);
+}

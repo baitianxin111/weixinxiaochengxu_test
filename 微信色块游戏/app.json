@@ -1,0 +1,36 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#8A2BE2",
+    "navigationBarTextStyle": "#FF00FF",
+    "navigationBarTitleText": "finding",
+    "backgroundColor": "#FA8072",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "pages": [
+    "apps/home/home",
+    "apps/setting/setting",
+    "apps/homeDetail/homeDetail"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "apps/home/home",
+        "text": "界面1",
+        "iconPath": "res/home.png",
+        "selectedIconPath": "res/home_selected.png"
+      },
+      {
+        "pagePath": "apps/setting/setting",
+        "text": "界面2",
+        "iconPath": "res/setting.png",
+        "selectedIconPath": "res/setting_selected.png"
+      }
+    ],
+    "color": "#FFE4B5",
+    "selectedColor": "#D2691E",
+    "backgroundColor": "#CD5C5C",
+    "borderStyle": "#800000",
+    "position": "bottom"
+  }
+}

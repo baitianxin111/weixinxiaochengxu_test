@@ -1,0 +1,4 @@
+<template name="importType1">
+  <image src="../../res/home.png"></image>
+  <text>通过inportType方式定义的模板</text>
+</template>

@@ -1,0 +1,10 @@
+<!--pages/home/home.wxml-->
+<!--<import src="../templates/templates.wxml"/>-->
+<!--<text>pages/home/home.wxml</text>-->
+<scroll-view scroll-y class="container" bindscrolltolower="loadData" style="height={{height}}px">
+  <view class="videoContent" wx:for="{{datas}}" wx:item="{{item}}">
+    <!--{{item}}-->
+    <!--下面的data是data-xx的形式的意思-->
+    <include src="../templates/templates" data="{{item}}" />
+  </view>
+</scroll-view>

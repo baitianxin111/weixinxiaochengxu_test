@@ -1,0 +1,4 @@
+<view>
+  <image src="../../res/setting.png"></image>
+  <text>这是include的模板</text>
+</view>
